@@ -35,23 +35,24 @@
                 <span id="preco-total">Valor Total: R$0,00</span>
                 <button class="car" onclick="limparCarrinho()">Limpar Carrinho</button>
             </div>
-            <a href="login.html" class="button"><span>Fazer login</span></a>
+            <a href="login.html" class="button" id="botaoLogin"><span>Fazer login</span></a>
         </div>
         <nav>
             <div class="botoes botoes-login"></div>
         </nav>
     </header>
     <main>
+        
         <div id="idiomas">
-            <button onclick="Escolher('en')">Inglês</button>
-            <!-- <button onclick="Escolher('ptbr')">Português</button>
-            <button onclick="Escolher('es')">Espanhol</button> -->
+            <button onclick="Escolher('ptbr')"><img src="img-interface/bandeira-do-brasil 1.png" alt="brasil"></button>
+            <button onclick="Escolher('en')"><img src="img-interface/bandeira-estados-unidos 1.png" alt="estados unidos da america"></button>
+            <button onclick="Escolher('es')"><img src="img-interface/bandeira-da-espanha 1.png" alt="espanha"></button>
         </div>
     
         <div class="box">
             <div class="conteudo-login">
                 <div class="titulo">
-                    <h3 id="Bem"><span id="Vindo">Bem-vindo</span><br>de volta!</h3>
+                    <h3 id="Bem"><p id="Vindo">Bem-vindo</p>de volta!</h3>
                     <div class="linha-titulo"></div>
                 </div>
                 <div class="campo">
@@ -69,11 +70,11 @@
                 </div>
                 <div class="outros-registros">
                     <button id="loginButton">Entrar</button>
-                    <p>Não tem conta? <a href="cadastro.html"><span>Registre-se!</span></a></p>
+                    <p id="registrar">Não tem conta? <a href="cadastro.html"><span>Registre-se!</span></a></p>
                 </div>
                 <div class="login-sociais">
                     <div class="linha-sociais"></div>
-                    <p>ou</p>
+                    <p id="or">ou</p>
                     <div class="line-icons"></div>
                     <div class="line-icons2"></div>
                     <div class="icons">
@@ -91,14 +92,14 @@
         <div class="container-footer">
             <nav>
                 <div class="parte1">
-                    <a href="#">Produtos</a>
-                    <a href="#">Lançamentos</a>
-                    <a href="#">Pré-venda</a>
+                    <a href="index.html#but" id="pro2">Produtos</a>
+                    <a href="index.html#lancamentos" id="lan2">Lançamentos</a>
+                    <a href="index.html#header" id="pre2">Pré-venda</a>
                 </div>
                 <div class="parte2">
-                    <a href="#">Favoritos</a>
-                    <a href="#">Sustentabilidade</a>
-                    <a href="#">Sobre nós</a>
+                    <a href="#" id="fav">Favoritos</a>
+                    <a href="sustentabilidade.html" id="sus2">Sustentabilidade</a>
+                    <a href="sobre-nos.html" id="sn">Sobre nós</a>
                 </div>
             </nav>
             <div class="redes-sociais">

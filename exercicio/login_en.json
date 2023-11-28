@@ -1,5 +1,15 @@
 {
-    "Vindo":"Welcome",
-    "Bem":"back!"
-    
+    "Bem": "Welcome back!",
+    "nomeUsuario":"User or e-mail",
+    "senhaInput":"Password",
+    "botaoLogin": "Login",
+    "loginButton": "Enter",
+    "registrar":"Don't have an account? Register!",
+    "or":"or",
+    "pre2": "Pre-Seale",
+    "lan2": "Relases",
+    "pro2": "Products",
+    "sus2": "Sustainability",
+    "fav": "Favorite",
+    "sn": "About us"
 }

@@ -38,6 +38,26 @@ body {
   src: url(font/Poppins-Bold.ttf);
 }
 
+#idiomas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 80px;
+  position: sticky;
+  top: 560px;
+}
+
+#idiomas button {
+  padding-bottom: 15px;
+  background-color: transparent;
+}
+
+#idiomas button img {
+  width: 50px;
+  height: auto;
+  border-radius: 10px;
+}
+
 
 /* INICIO HEADER */
 
@@ -313,7 +333,7 @@ input::placeholder {
   color: #3C2520;
 }
 
-.button {
+.button, #botaoLogin {
   text-decoration: none;
   border: 3px #3C2520 solid;
   padding: 10px 17px;
@@ -1460,7 +1480,7 @@ footer {
 }
 
 .box {
-  margin-top: 34.3px;
+  margin-top: -135.7px;
   display: flex;
   justify-content: space-between;
 }
@@ -1472,11 +1492,12 @@ footer {
 
 }
 
-.box h3 span {
+.box  p {
   font-size: 46px;
   color: #835248;
   font-family: 'Young-serif';
 }
+
 
 
 .box .img-login {
